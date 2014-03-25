@@ -1,0 +1,24 @@
+?>
+<html>
+<head><title>Practice5</title></head>
+<body> 
+<table border=1 cellspacing=1>
+<?php
+$contador=1;
+for ($i=1;$i<=10;$i++){
+$color=white;
+if ($i%2==0){
+$color=#0489B1;   
+}
+echo "<tr style= background-color:$color>";
+for ($j=1;$j<=10;$j++){
+echo "<td>".$contador."</td>";
+$contador++;
+}
+echo "</tr>";
+}
+?>
+</table> 
+</body>
+</html><!DOCTYPE html>
+<html>
